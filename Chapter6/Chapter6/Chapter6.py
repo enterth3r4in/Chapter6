@@ -10,6 +10,4 @@ for i in animal_array:
 animal_array.append("Hyena")
 animal_array.append("Kangaroo")
 
-print()
-for i in animal_array:
-    print(i)
+print(animal_array)
