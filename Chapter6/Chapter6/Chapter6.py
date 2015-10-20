@@ -14,5 +14,13 @@ animal_array.remove("Emu")
 #print("Number of elements: ", len(animal_array))
 #print("Last index: ", len(animal_array) - 1)
 
-for i in range(len(animal_array) + 1):
+for i in range(len(animal_array)):
+    print(animal_array[i])
+
+#Breaks program
+#for i in range(len(animal_array) + 1):
+#    print(animal_array[i])
+
+#Cuts off last element
+for i in range(len(animal_array) - 1):
     print(animal_array[i])
