@@ -1,4 +1,5 @@
-#Fun With Arrays
+﻿#Fun With Arrays
+import random
 
 animal_array = ["Giraffe", "Emu", "Ostrich", "Chimpanzee", "Elephant"]
 #print(animal_array)
@@ -22,5 +23,8 @@ for i in range(len(animal_array)):
 #    print(animal_array[i])
 
 #Cuts off last element
-for i in range(len(animal_array) - 1):
-    print(animal_array[i])
+#for i in range(len(animal_array) - 1):
+#    print(animal_array[i])
+
+print()
+print("Randomly selecting animal: ", random.choice(animal_array))
